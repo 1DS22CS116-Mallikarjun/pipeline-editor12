@@ -8,8 +8,6 @@ A visual, interactive Directed Acyclic Graph (DAG) editor built with React and R
 
 [Live Demo (Vercel/Netlify/GitHub Pages)]([https://pipeline-editor1.vercel.app/])
 https://pipeline-editor1.vercel.app/
-*Replace the above link with your deployed site URL.*
-
 ---
 
 ## 🖥️ Screenshots & Recordings
