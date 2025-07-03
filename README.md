@@ -26,7 +26,7 @@ A visual, interactive Directed Acyclic Graph (DAG) editor built with React and R
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/pipeline-editor.git
+   git clone https://github.com/1DS22CS116-Mallikarjun/pipeline-editor12.git
    cd pipeline-editor
    ```
 2. **Install dependencies:**
@@ -74,35 +74,5 @@ A visual, interactive Directed Acyclic Graph (DAG) editor built with React and R
 
 ## 🎥 Demo Video & Screenshots
 
-- *Add a screen recording (e.g., using Loom, OBS, or a GIF) showing node creation, connection, deletion, auto-layout, and validation.*
-- *Add screenshots to the `screenshots/` folder and update the links above.*
 
----
 
-## ⚡ Challenges & Solutions
-
-### 1. **JSX Parsing Errors**
-- **Challenge:** Vite/esbuild requires `.jsx` extension for files containing JSX.
-- **Solution:** Renamed all relevant files to `.jsx` and ensured import paths matched.
-
-### 2. **React Tooltip Import Issues**
-- **Challenge:** `react-tooltip` v5+ changed its import and usage pattern, causing runtime errors.
-- **Solution:** Used named import (`{ Tooltip as ReactTooltip }`) and updated usage to use `data-tooltip-id` and `id` props.
-
-### 3. **Context Menu on Nodes**
-- **Challenge:** Implementing a custom right-click menu that doesn't interfere with React Flow's selection.
-- **Solution:** Used local state in the node component and global click listeners to close the menu.
-
-### 4. **Edge Highlighting for Invalid Connections**
-- **Challenge:** Visually indicating invalid edges after validation.
-- **Solution:** Maintained a list of invalid edge IDs and styled them with a red stroke.
-
-### 5. **Node Type Badges and Color Coding**
-- **Challenge:** Displaying node types clearly and allowing for future extensibility.
-- **Solution:** Used a color map and badges in the node component, with type selection on node creation.
-
----
-
-## 📄 License
-
-MIT
